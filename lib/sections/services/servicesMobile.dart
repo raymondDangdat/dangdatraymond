@@ -27,7 +27,7 @@ class ServiceMobile extends StatelessWidget {
             style: GoogleFonts.lobster(fontWeight: FontWeight.w200),
           ),
           CarouselSlider.builder(
-            itemCount: 5,
+            itemCount: 3,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),

@@ -27,7 +27,7 @@ class PortfolioMobileTab extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           CarouselSlider.builder(
-            itemCount: 10,
+            itemCount: 2,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
@@ -57,7 +57,7 @@ class PortfolioMobileTab extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5.0),
                 side: BorderSide(color: kPrimaryColor)),
             onPressed: () {
-              launchURL("https://github.com/m-hamzashakeel");
+              launchURL("https://github.com/raymondDangdat");
             },
             child: Text(
               "See More",

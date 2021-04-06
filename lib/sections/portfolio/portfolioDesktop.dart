@@ -49,7 +49,7 @@ class PortfolioDesktop extends StatelessWidget {
                     projectTitle: kProjectsTitles[index],
                     projectDescription: kProjectsDescriptions[index],
                     projectLink: kProjectsLinks[index],
-                    bottomWidget: index == 1
+                    bottomWidget: index == 0
                         ? Image.network(
                             "https://img.icons8.com/material-sharp/384/ffffff/google-play.png",
                             height: height * 0.04,
@@ -58,7 +58,7 @@ class PortfolioDesktop extends StatelessWidget {
                   ),
                 );
               },
-              itemCount: 4,
+              itemCount: 2,
             ),
           ),
           SizedBox(
@@ -70,7 +70,7 @@ class PortfolioDesktop extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5.0),
                 side: BorderSide(color: kPrimaryColor)),
             onPressed: () {
-              launchURL("https://github.com/m-hamzashakeel");
+              launchURL("https://github.com/raymondDangdat");
             },
             child: Text(
               "See More",

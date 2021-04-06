@@ -172,7 +172,7 @@ class _MainPageState extends State<MainPage> {
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
                 html.window.open(
-                    'https://drive.google.com/uc?export=view&id=1OOdcdGEN3thVvpZ4cl_MM0LT-GCMuLIE',
+                    'https://drive.google.com/file/d/1BJ_g1HXDYhq9SltbGy9ZCdoSC5uS5IzE/view?usp=sharing',
                     "pdf");
               },
               child: Text(
