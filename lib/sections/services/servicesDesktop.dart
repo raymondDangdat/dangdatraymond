@@ -18,7 +18,7 @@ class ServiceDesktop extends StatelessWidget {
         children: [
           Text(
             "\nWhat I Do",
-            style: GoogleFonts.montserrat(
+            style: GoogleFonts.lobster(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,

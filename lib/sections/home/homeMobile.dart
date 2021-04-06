@@ -54,14 +54,14 @@ class _HomeMobileState extends State<HomeMobile> {
                   height: height * 0.01,
                 ),
                 Text(
-                  "Muhammad",
+                  "Dangdat",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Hamza",
+                  "Raymond",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.055, fontWeight: FontWeight.w500),
                 ),
@@ -74,13 +74,14 @@ class _HomeMobileState extends State<HomeMobile> {
                     TyperAnimatedTextKit(
                         isRepeatingAnimation: true,
                         speed: Duration(milliseconds: 50),
-                        textStyle: GoogleFonts.montserrat(
+                        textStyle: GoogleFonts.lobster(
                             fontSize: height * 0.03,
                             fontWeight: FontWeight.w200),
                         text: [
                           " Flutter Developer",
-                          " Technical Writer",
-                          " UI/UX Enthusiast"
+                          " Java Android",
+                          " NodeJS Beginner",
+                          "AI Enthusiast"
                         ]),
                   ],
                 ),

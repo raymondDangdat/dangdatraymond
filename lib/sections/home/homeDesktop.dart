@@ -42,8 +42,8 @@ class HomeDesktop extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "WELCOME TO MY PORTFOLIO! ",
-                      style: GoogleFonts.montserrat(fontSize: height * 0.03, fontWeight: FontWeight.w300),
+                      "Welcome To My Portfolio! ",
+                      style: GoogleFonts.lobster(fontSize: height * 0.03, fontWeight: FontWeight.w300),
                     ),
                     EntranceFader(
                       offset: Offset(0, 0),
@@ -60,7 +60,7 @@ class HomeDesktop extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 Text(
-                  "Muhammad",
+                  "Raymond",
                   style: GoogleFonts.montserrat(
                       fontSize:
                           width < 1200 ? height * 0.085 : height * 0.095,
@@ -68,7 +68,7 @@ class HomeDesktop extends StatelessWidget {
                       letterSpacing: 4.0),
                 ),
                 Text(
-                  "Hamza",
+                  "Dangdat",
                   style: GoogleFonts.montserrat(
                       fontSize:
                           width < 1200 ? height * 0.085 : height * 0.095,
@@ -93,8 +93,9 @@ class HomeDesktop extends StatelessWidget {
                               fontWeight: FontWeight.w200),
                           text: [
                             " Flutter Developer",
-                            " Technical Writer",
-                            " UI/UX Enthusiast"
+                            " Java Android",
+                            " NodeJS Beginner",
+                            "AI Enthusiast"
                           ]),
                     ],
                   ),

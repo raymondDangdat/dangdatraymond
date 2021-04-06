@@ -34,8 +34,8 @@ class HomeTab extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "WELCOME TO MY PORTFOLIO! ",
-                      style: GoogleFonts.montserrat(
+                      "Welcome To My Portfolio! ",
+                      style: GoogleFonts.lobster(
                           fontSize: height * 0.03, fontWeight: FontWeight.w300),
                     ),
                     Image.asset(
@@ -48,14 +48,14 @@ class HomeTab extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 Text(
-                  "Muhammad",
+                  "Dangdat",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.07,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 1.5),
                 ),
                 Text(
-                  "Hamza",
+                  "Raymond",
                   style: GoogleFonts.montserrat(
                       fontSize: height * 0.07, fontWeight: FontWeight.w500),
                 ),
@@ -73,8 +73,9 @@ class HomeTab extends StatelessWidget {
                             fontWeight: FontWeight.w200),
                         text: [
                           " Flutter Developer",
-                          " Technical Writer",
-                          " UI/UX Enthusiast"
+                          " Java Android",
+                          " NodeJS Beginner",
+                          "AI Enthusiast"
                         ]),
                   ],
                 ),

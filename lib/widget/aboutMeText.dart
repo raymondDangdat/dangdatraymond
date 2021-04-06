@@ -24,25 +24,25 @@ class AboutMeText extends StatelessWidget {
       text: TextSpan(children: [
         TextSpan(
           text:
-              "Hi There! I'm Hamza, a Flutter developer, technial writer and open source contributor based in Pakistan.\n\nI have been developing mobile apps for over 1.5 years now, I develop apps with appealing UI and robust performance. I have worked in teams for various startups and helped them in launching their prototypes, as open source contributor at GitHub and got valuable learning experience.\n\nRight now I'm in final year of my undergraduate degree at ",
+              "Hi There! I'm Dangdat, a Flutter developer, AI enthusiast and  an open source contributor based in Abuja Nigeria.\n\nI have been developing mobile apps for over 1 year now, I develop apps with appealing UI and robust performance. I have worked in teams consisting of different stacks, as an open source contributor at GitHub and got valuable learning experience.\n\nGraduate of Computer Science ",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),
         ),
         TextSpan(
-          text: "COMSATS University Islamabad",
+          text: "Plateau State University, Bokkos",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),
         ),
         TextSpan(
-          text: ", active ",
+          text: ", member ",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),
         ),
         TextSpan(
-          text: "Google Developer Student Clubs (DSC) Lead,",
+          text: "Data Science Nigeria,",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),
@@ -54,7 +54,7 @@ class AboutMeText extends StatelessWidget {
               : _textStyle(fontSize + 2, false),
         ),
         TextSpan(
-          text: " Leading Flutter Islamabad, Pakistan",
+          text: " Member Google Developers Group, Jos",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),

@@ -7,20 +7,16 @@ Color kPrimaryColor = Color(0xffC0392B);
 // Social Media
 const kSocialIcons = [
   "https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png",
-  "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
   "https://img.icons8.com/android/480/ffffff/twitter.png",
   "https://img.icons8.com/metro/308/ffffff/linkedin.png",
   "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-  "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
 ];
 
 const kSocialLinks = [
-  "https://facebook.com/mhamzadev",
-  "https://instagram.com/mhamzadev",
-  "https://twitter.com/mhamzadev",
-  "https://linkedin.com/in/mhamzadev",
-  "https://github.com/m-hamzashakeel",
-  "https://mhamzadev.medium.com"
+  "https://web.facebook.com/dangdatsmart.raymond.7/",
+  "https://twitter.com/Dangdatraymond",
+  "https://www.linkedin.com/in/dangdat-raymond-delmut-810106167/",
+  "https://github.com/raymondDangdat",
 ];
 
 // URL Launcher
@@ -29,53 +25,45 @@ void launchURL(String _url) async =>
 
 // Community
 final kCommunityLogo = [
-  'assets/cui.png',
-  'assets/flutterIsl.png',
+  'assets/plasu.png',
+  'assets/gdg.png',
   'assets/dsc.png'
 ];
 
 final kCommunityLinks = [
-  "https://www.comsats.edu.pk/",
-  "https://web.facebook.com/FlutterIslamabadPakistan/",
-  "https://dsc.community.dev/comsats-university-islamabad/"
+  "https://plasu.edu.ng/",
+  "https://gdg.community.dev/gdg-jos/",
+  "https://gdg.community.dev/gdg-jos/"
 ];
 
 // Tools & Tech
-final kTools = ["Flutter", "Dart", "Python", "Java", "C++"];
+final kTools = ["Flutter", "Dart", "Python", "Java", "JavaScript"];
 
-final kTools1 = ["HTML", "CSS", "Bootstrap", "React-native"];
+final kTools1 = ["HTML", "CSS", "Bootstrap"];
 
 // services
 final kServicesIcons = [
   "assets/services/app.png",
-  "assets/services/ui.png",
   "assets/services/rapid.png",
-  "assets/services/blog.png",
   "assets/services/open.png",
 ];
 
 final kServicesTitles = [
   "Full App Development",
-  "UI/UX Designing",
   "Rapid Prototyping",
-  "Technical Blog Writing",
   "Open Source - GitHub",
 ];
 
 final kServicesDescriptions = [
-  "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
-  "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
+  "ForI can only develop Android and iOS Apps using Flutter, I will soon dive into Flutter for web and desktop apps",
   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-  "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images, interesting topics and SEO friendly.\nCheck out my Medium profile @mhamzadev",
-  "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @m-hamzashakeel",
+  "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @raymondDangdat",
 ];
 
 final kServicesLinks = [
   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
-  "https://github.com/m-hamzashakeel"
+  "https://github.com/raymondDangdat"
 ];
 
 // projects
@@ -152,7 +140,7 @@ final kContactTitles = [
 ];
 
 final kContactDetails = [
-  "Attock, Pakistan",
-  "(+92) 346 0159889",
-  "hamza.6.shakeel@gmail.com"
+  "Abuja, Nigeria",
+  "(+234) 814 2081233",
+  "raymonddangdat@gmail.com"
 ];
