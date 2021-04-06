@@ -31,7 +31,7 @@ class _ServiceCardState extends State<ServiceCard> {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return InkWell(
-      onTap: () => launch(widget.serviceLink),
+      // onTap: () => launch(widget.serviceLink),
       onHover: (isHovering) {
         if (isHovering) {
           setState(() {

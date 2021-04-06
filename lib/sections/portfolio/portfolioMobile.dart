@@ -27,7 +27,7 @@ class PortfolioMobileTab extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           CarouselSlider.builder(
-            itemCount: 2,
+            itemCount: 4,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),

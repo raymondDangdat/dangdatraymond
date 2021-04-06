@@ -57,35 +57,40 @@ final kServicesDescriptions = [
 ];
 
 final kServicesLinks = [
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://github.com/raymondDangdat"
+  "https://github.com/raymondDangdat",
+  "https://github.com/raymondDangdat",
+  "https://github.com/raymondDangdat",
 ];
 
 // projects
 final kProjectsBanner = [
   "assets/projects/tefproject.png",
-  "assets/projects/movies.jpg"
+  "assets/projects/movies.jpg",
+  "assets/projects/smartshop.png",
+  "assets/projects/portfolio.png"
 ];
 
 final kProjectsIcons = [
   "assets/projects/teflogoo.png",
   "assets/projects/tmdb.jpeg",
+  "assets/projects/flutter.png",
+  "assets/icons/icon.png"
 ];
 
-final kProjectsTitles = [
-  "TEF NG",
-  "The Movie DB",
-];
+final kProjectsTitles = ["TEF NG", "The Movie DB", "Smart Shop", "Portfolio"];
 
 final kProjectsDescriptions = [
-  "Application for food delivery for Tamuno Exhalted Fingers. Raaxo Synergy project which is API based. I workd together with the web devs to comsume the REST APIs.",
+  "Application for food delivery for Tamuno Exhalted Fingers. Raaxo Synergy project which is API based. I workd together with the web devs to comsume the REST APIs. It is publish on both Apple App Store and Google Play Store as TEF NG",
   "An Open Source Project consuming The Movies DB, making use of Bloc for state managememnt and playing the movie trailer on YouTube using youtube Flutter package",
+  "An Open Source Project for an online shopping system which I used provider package for state management, Firebase for backend, and it has both client and admin module",
+  "An Open Source Project for my portfolio, built with Flutter. It runs on mobile and web",
 ];
 
 final kProjectsLinks = [
   "http://bit.ly/tefng",
   "https://github.com/raymondDangdat/movie_app",
+  "https://github.com/raymondDangdat/smart-shop",
+  "https://github.com/raymondDangdat/dangdatraymond",
 ];
 
 // Contact
