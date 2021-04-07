@@ -94,7 +94,6 @@ class HomeDesktop extends StatelessWidget {
                           text: [
                             " Flutter Developer",
                             " Java Android",
-                            " NodeJS Beginner",
                             "AI Enthusiast"
                           ]),
                     ],
