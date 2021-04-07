@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio/data/data.dart';
 import 'package:portfolio/widget/widgets.dart';
 
 import '../../constants.dart';
@@ -27,16 +28,16 @@ class PortfolioMobileTab extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           CarouselSlider.builder(
-            itemCount: 4,
-            itemBuilder: (BuildContext context, int itemIndex, int i) =>
+            itemCount: projects.length,
+            itemBuilder: (BuildContext context, int index, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
               child: ProjectCard(
                 cardWidth: width < 650 ? width * 0.8 : width * 0.4,
-                projectIcon: kProjectsIcons[i],
-                projectTitle: kProjectsTitles[i],
-                projectDescription: kProjectsDescriptions[i],
-                projectLink: kProjectsLinks[i],
+                projectIcon: projects[index].projectIcon,
+                projectTitle: projects[index].projectTitle,
+                projectDescription: projects[index].description,
+                projectLink: projects[index].projectLinks,
               ),
             ),
             options: CarouselOptions(

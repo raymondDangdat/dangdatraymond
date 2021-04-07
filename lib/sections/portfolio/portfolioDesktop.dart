@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/animations/animations.dart';
+import 'package:portfolio/data/data.dart';
 import 'package:portfolio/widget/widgets.dart';
 
 import '../../constants.dart';
@@ -22,6 +23,7 @@ class PortfolioDesktop extends StatelessWidget {
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
+
             ),
           ),
           Text(
@@ -44,11 +46,11 @@ class PortfolioDesktop extends StatelessWidget {
                   child: ProjectCard(
                     cardWidth: width < 1200 ? width * 0.25 : width * 0.35,
                     cardHeight: width < 1200 ? height * 0.28 : height * 0.1,
-                    backImage: kProjectsBanner[index],
-                    projectIcon: kProjectsIcons[index],
-                    projectTitle: kProjectsTitles[index],
-                    projectDescription: kProjectsDescriptions[index],
-                    projectLink: kProjectsLinks[index],
+                    backImage: projects[index].projectBanner,
+                    projectIcon: projects[index].projectIcon,
+                    projectTitle: projects[index].projectTitle,
+                    projectDescription: projects[index].description,
+                    projectLink: projects[index].projectLinks,
                     bottomWidget: index == 0
                         ? Image.network(
                             "https://img.icons8.com/material-sharp/384/ffffff/google-play.png",
