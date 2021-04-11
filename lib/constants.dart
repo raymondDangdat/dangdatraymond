@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Colors
-Color kPrimaryColor = Color(0xffC0392B);
+Color kPrimaryColor = Color(0xFF2B96C0);
 
 // Social Media
 const kSocialIcons = [
@@ -61,7 +61,6 @@ final kServicesLinks = [
   "https://github.com/raymondDangdat",
   "https://github.com/raymondDangdat",
 ];
-
 
 // Contact
 final kContactIcons = [
